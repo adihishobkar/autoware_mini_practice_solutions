@@ -76,7 +76,7 @@ class PurePursuitFollower:
         # Publish vehicle command
         vehicle_cmd = VehicleCmd()
         vehicle_cmd.ctrl_cmd.steering_angle = steering_angle
-        vehicle_cmd.ctrl_cmd.linear_velocity = 10.0  # You can adjust this as needed
+        vehicle_cmd.ctrl_cmd.linear_velocity = 10.0
 
         # Set header information
         vehicle_cmd.header.stamp = msg.header.stamp
